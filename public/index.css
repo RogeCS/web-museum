@@ -1,0 +1,27 @@
+@import "../src/assets/styles/header.css";
+
+body, html {
+  padding: 0;
+  margin: 0;
+  background-color: #efefef;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.color {
+  background-color: salmon;
+}
+
+.container_grid {
+  display: grid;
+  max-width: 1100px;
+  margin: 0 auto;
+}
