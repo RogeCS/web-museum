@@ -27,6 +27,7 @@
   line-height: 100%;
   cursor: pointer;
   display: block;
+  z-index: 1;
 }
 
 .menu-icon__img {
@@ -45,7 +46,7 @@
   position: fixed;
   background-color: var(--text);
   color: var(--bg);
-  top: 80px;
+  top: 0px;
   left: -100%;
   z-index: 1;
   font-size: 20px;
