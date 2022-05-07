@@ -1,10 +1,19 @@
 @import "header.css";
+@import "./hero.css";
 
 body, html {
   padding: 0;
   margin: 0;
-  background-color: #efefef;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  border:0 none;
+  position: relative;
+  outline: none;
 }
 
 a {
@@ -12,16 +21,14 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.color {
-  background-color: salmon;
-}
-
 .container_grid {
   display: grid;
   max-width: 1100px;
   margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
