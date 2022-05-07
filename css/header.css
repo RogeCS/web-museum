@@ -4,7 +4,7 @@
   justify-content: space-between;
   width: 100%;
   height: var(--header-hg);
-  position: fixed;
+  position: sticky;
 }
 
 .logo{
