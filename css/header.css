@@ -44,7 +44,7 @@
 .nav__list{
   float: right;
   width: 100%;
-  height: calc(100vh - var(--header-hg));
+  height: 100vh;
   position: fixed;
   background-color: var(--bg);
   top: var(--header-hg);
