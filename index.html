@@ -1,61 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Page Title</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="index.css">
   </head>
 
   <body>
-    <header class="header">
-      <div class="logo">
-        Logo
-      </div>
-      <nav class="nav">
-        <input type="checkbox" id="check">
-        <label for="check" class="menu-icon">
-          <img class="menu-icon__img" src="./assets/icons/menu.svg" alt="abrir menu">
-        </label>
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <a href="">Inicio</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="">Nuestra historia</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="">Exposiciones</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="">Gallería</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="">Contacto
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
+    <header></header>
+    <main>
       <section class="hero">
-        <h1>Hero</h1>
-      </section>
-      <section class="history">
-        Aquí va la historia del museo
-      </section>
-      <section class="expo">
-        Aquí van las expos (permanentes y temporales)
-      </section>
-      <section class="gallery">
-        Aquí va la galería de imágenes
-      </section>
-      <section class="contact-us">
-        Contacto
+        <div id="hero-caja1">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum nunc tortor, non pharetra odio facilisis a. Donec et sapien in felis feugiat</p>
+        </div>
+        <div id="hero-caja2">
+          <div class="datos-info amarillo">
+            <h1>Title</h1>
+            <p>Description</p>
+          </div>
+          <div class="datos-info aqua">
+            <h1>Title</h1>
+            <p>Description</p>
+          </div>
+          <div class="datos-info aqua-oscuro">
+            <h1>Title</h1>
+            <p>Description</p>
+          </div>
+          <div class="datos-info amarillo">
+            <h1>Title</h1>
+            <p>Description</p>
+          </div>
+        </div>
+        <article id="hero-caja3">
+          <div class="expo_actual-contenedor">
+            <div class="expo_actual-info">
+              <h1>Title</h1>
+              <h2>Subtitle</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum nunc tortor, non pharetra odio facilisis a. Donec et sapien in felis feugiat</p>
+            </div>
+            <figure class="expo_actual-img">
+              <img src="./assets/images/imgExample.jpeg" alt="">
+            </figure>
+          </div>
+          </article>
+        <div id="hero-caja4">
+          <div class="nos-info text_center">
+            <h1 class="nos-titulo">
+              Acerca de nosotros
+            </h1>
+            <figure class="nos-img">
+              <img class="img" src="./assets/images/museo-fachada.jpeg">
+            </figure>
+            <p class="nos-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis dolor lectus, in volutpat dui tempor ut. Aenean ullamcorper bibendum ipsum, venenatis volutpat lorem imperdiet a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis risus a libero venenatis sodales. Cras non lorem semper ipsum lacinia blandit. Nam elementum magna est, sit amet condimentum odio scelerisque rutrum. Etiam efficitur mi vel accumsan vestibulum. Vestibulum sed neque sit amet ex suscipit dapibus non nec turpis. Sed scelerisque, augue et sollicitudin aliquam, sem lorem blandit eros, ac ullamcorper turpis nunc ut sem. Vivamus faucibus velit sit amet lectus accumsan auctor. Suspendisse et tortor fringilla, porttitor orci eu, facilisis dolor.
+            </p>
+          </div>
+        </div>
+        <div id="hero-caja5">
+          <div class="tall-info text_center">
+            <h1 class="tall-titulo">
+              talleres
+            </h1>
+            <p class="tall-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis dolor lectus, in volutpat dui tempor ut. Aenean ullamcorper bibendum ipsum, venenatis volutpat lorem imperdiet a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quis risus a libero venenatis sodales. Cras non lorem semper ipsum lacinia blandit. Nam elementum magna est, sit amet condimentum odio scelerisque rutrum. Etiam efficitur mi vel accumsan vestibulum. Vestibulum sed neque sit amet ex suscipit dapibus non nec turpis. Sed scelerisque, augue et sollicitudin aliquam, sem lorem blandit eros, ac ullamcorper turpis nunc ut sem. Vivamus faucibus velit sit amet lectus accumsan auctor. Suspendisse et tortor fringilla, porttitor orci eu, facilisis dolor.
+            </p>
+            <figure class="tall-img">
+              <img class="img" src="./assets/images/museo-fachada.jpeg">
+            </figure>
+          </div>
+        </div>
       </section>
     </main>
-    <footer class="footer">
-      Este es el footer
-    </footer>
+    <footer></footer>
   </body>
-</html>

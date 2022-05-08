@@ -1,0 +1,462 @@
+
+#hero-caja1, #hero-caja2, #hero-caja3, #hero-caja4, #hero-caja5 {
+  display: block;
+}
+
+/*Display para Desktop de 320px*/
+@media screen and (min-width:320px) {
+  /** Frase */
+  #hero-caja1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  #hero-caja1 p{
+    margin: 0;
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+
+  /** Datos */
+  #hero-caja2{
+    width: 100%;
+  }
+
+  .datos-info {
+    padding-top: 20px;
+    width: 100%;
+    height: 125px;
+    text-align: center;
+  }
+
+  .amarillo{
+    background-color: #f3a70b;
+  }
+
+  .aqua{
+    background-color: #81cbbc;
+  }
+
+  .aqua-oscuro{
+    background-color: #449588;
+  }
+
+  /** Expo Actual */
+  #hero-caja3{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: transparent;
+  }
+  .expo_actual-contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  .expo_actual-info{
+    padding: 30px 10px;
+    text-align: center;
+  }
+
+  .expo_actual-img {
+    margin: 10px;
+  }
+
+  .expo_actual-img img {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /** Nosotros */
+  #hero-caja4{
+    width: 100%;
+    padding: 20px;
+    background-color: #81cbbc;
+  }
+
+  #hero-caja4 h1{
+    padding-top: 50px;
+  }
+
+  .nos-info h1{
+    padding-top: 30px;
+    margin-bottom: 15px
+  }
+
+  .nos-img{
+    margin: 20px 0;
+  }
+
+  .nos-img img {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  /** Talleres */
+  #hero-caja5{
+    width: 100%;
+    padding: 20px;
+    background-color:#81cbbc;
+  }
+
+  .tall-titulo{
+    text-align: center;
+  }
+
+  .tall-info h1{
+    padding-top: 30px;
+    margin-bottom: 15px
+  }
+
+  .tall-img{
+    margin: 20px 0;
+  }
+
+  .tall-img img {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
+
+}
+
+/*Display para Desktop de 768px*/
+@media screen and (min-width:768px) {
+
+  /** Frase */
+  #hero-caja1{
+    float:left;
+    width: 60%;
+    height: 200px;
+    position: relative;
+  }
+
+  #hero-caja1 p{
+    margin: 0;
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+
+  /** Datos */
+  #hero-caja2{
+    float:left;
+    width: 40%;
+  }
+
+  .datos-info {
+    padding-top: 20px;
+    width: 100%;
+    height: 125px;
+    text-align: center;
+  }
+
+  .amarillo{
+    background-color: #f3a70b;
+  }
+
+  .aqua{
+    background-color: #81cbbc;
+  }
+
+  .aqua-oscuro{
+    background-color: #449588;
+  }
+
+  /** Expo Actual */
+  #hero-caja3{
+    width: 60%;
+    top: 80px;
+    height: 500px;
+    float:left;
+    height: 1;
+    position: absolute;
+    background-color: transparent;
+  }
+  .expo_actual-contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  .expo_actual-info{
+    width: 50%;
+    float: left;
+    padding: 0px 20px;
+    text-align: center;
+    display: block;
+  }
+
+  .expo_actual-img {
+    width: 46%;
+    margin: 10px auto;
+    display: inline-block;
+  }
+
+  .expo_actual-img img {
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  /** Nosotros */
+  #hero-caja4{
+    float:left;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    background-color: #81cbbc;
+  }
+
+  #hero-caja4 h1{
+    padding-top: 50px;
+  }
+
+  .nos-titulo{
+    text-align: right;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+  }
+
+  .nos-desc{
+    text-align: right;
+    width: 60%;
+    padding: 0 20px;
+    display: block;
+    float: right
+  }
+
+  .nos-img{
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+    display: block;
+  }
+
+  .nos-img img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  /** Talleres */
+  #hero-caja5{
+    float:left;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    background-color:#81cbbc;
+  }
+
+  .tall-titulo{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  .tall-desc{
+    text-align: left;
+    width: 60%;
+    display: block;
+    padding: 0 20px;
+    float:left;
+  }
+
+  .tall-img{
+    width: 40%;
+    margin-top: 10px;
+    display: block;
+    float: right;
+  }
+
+  .tall-img img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+}
+
+/*Display para Desktop de 768px*/
+@media screen and (min-width:768px) {
+
+  /** Frase */
+  #hero-caja1{
+    float:left;
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+
+  #hero-caja1 p{
+    margin: 0;
+    width: 60%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+
+  /** Datos */
+  #hero-caja2{
+    float:left;
+    width: 25%;
+  }
+
+  .datos-info {
+    padding-top: 20px;
+    width: 100%;
+    height: 230px;
+    text-align: center;
+  }
+
+  .amarillo{
+    background-color: #f3a70b;
+  }
+
+  .aqua{
+    background-color: #81cbbc;
+  }
+
+  .aqua-oscuro{
+    background-color: #449588;
+  }
+
+  /** Expo Actual */
+  #hero-caja3{
+    width: 25%;
+    top: 0;
+    height: 920px;
+    float:left;
+    height: 1;
+    position: relative;
+    background-color: transparent;
+  }
+  .expo_actual-contenedor{
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  .expo_actual-info{
+    width: 100%;
+    float: left;
+    padding: 0px 20px;
+    text-align: center;
+    display: block;
+  }
+
+  .expo_actual-img {
+    width: 100%;
+    margin: 10px auto;
+    float: left;
+    display: block;
+  }
+
+  .expo_actual-img img {
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  /** Nosotros */
+  #hero-caja4{
+    float:left;
+    width: 25%;
+    height: 920px;
+    padding: 20px;
+    background-color: #81cbbc;
+  }
+
+  #hero-caja4 h1{
+    padding-top: 50px;
+  }
+
+  .nos-titulo{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+  }
+
+  .nos-desc{
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+    display: block;
+    float: right
+  }
+
+  .nos-img{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+  }
+
+  .nos-img img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  /** Talleres */
+  #hero-caja5{
+    float:left;
+    width: 25%;
+    height: 920px;
+    padding: 20px;
+    background-color:#81cbbc;
+  }
+
+  .tall-titulo{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  .tall-desc{
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 0 20px;
+    float:left;
+  }
+
+  .tall-img{
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+    float: right;
+  }
+
+  .tall-img img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+}

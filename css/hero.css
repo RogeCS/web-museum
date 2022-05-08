@@ -1,5 +1,427 @@
-.hero{
-  height: 100vh;
-  position: relative;
-  top: var(--header-hg);
+
+
+#frase, #costo, #horario {
+  display: block;
 }
+
+/*Display para Desktop de 1280px*/
+@media screen and (min-width:320px) {
+  .hero {
+    width: calc (100%-30px);
+    height: auto;
+    padding: 25px 20px;
+  }
+
+  .box {
+    width: 100%;
+    height: 500px;
+    float: left;
+  }
+  
+  #frase {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0px;
+    float: left;
+  }
+  
+  #frase h1{
+    height: 100%;
+    text-align: center;
+    font-size: 23px;
+  }
+  #expo_actual, #nosotros {
+      margin-top: 30px;
+      margin-right: 30px;
+    }
+
+  #talleres{
+    margin-top: 30px;
+    background-color: #81cbbc;
+  }
+
+  .box_datos{
+    width: 100%;
+    height: 25%;
+    background-color: salmon;
+  }
+  
+  #horario {
+    background-color: #81cbbc;
+  }
+  #contacto{
+    background-color: #449588;
+  }
+  
+  #costos h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #f3a70b;
+  }
+  
+  #costos p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #f3a70b;
+  }
+  
+  #horario h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #81cbbc;
+  }
+  
+  #horario p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #81cbbc;
+  }
+  
+  #contacto h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #449588;
+  }
+  
+  #contacto p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #449588;
+  }
+  
+  #ubicacion h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #f3a70b;
+  }
+  
+  #ubicacion p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #f3a70b;
+  }
+
+  .expo_actual-info{
+    height: 51%;
+  }
+
+  .expo_actual-info h1{
+    color: #fde792;
+  }
+
+  .expo_actual-info h2{
+    color: #fde792;
+  }
+
+  .expo_actual-info p {
+    color: #fde792;
+  }
+
+  .img-puntitos{
+    width: 100%;
+  }
+
+
+  .img-fachada{
+    width: 80%;
+    margin: auto;
+  }
+
+  .img-personas{
+    width: 80%;
+    margin: auto;
+  }
+}
+
+
+/*Display para Ipad de 768px*/
+@media screen and (min-width:768px) {
+  .hero {
+    width: calc (100%-70px);
+    height: auto;
+    padding: 25px 20px;
+  }
+
+  .box {
+    width: 30%;
+    height: 500px;
+    float: left;
+  }
+  
+  #frase {
+    width: 60%;
+    height: 500px;
+    margin-bottom: 0px;
+    float: left;
+  }
+  
+  #frase h1{
+    height: 100%;
+    text-align: center;
+    font-size: 23px;
+    margin: 0 50px;
+  }
+  #datos{
+    width: 40%;
+  }
+
+  #talleres{
+    background-color: #81cbbc;
+  }
+
+  #expo_actual, #nosotros {
+      margin-top: 30px;
+      margin-right: 30px;
+    }
+
+  #talleres{
+    margin-top: 30px;
+  }
+
+  .box_datos{
+    width: 100%;
+    height: 25%;
+    background-color: salmon;
+  }
+  
+  #horario {
+    background-color: #81cbbc;
+  }
+  #contacto{
+    background-color: #449588;
+  }
+  
+  #costos h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #f3a70b;
+  }
+  
+  #costos p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #f3a70b;
+  }
+  
+  #horario h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #81cbbc;
+  }
+  
+  #horario p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #81cbbc;
+  }
+  
+  #contacto h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #449588;
+  }
+  
+  #contacto p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #449588;
+  }
+  
+  #ubicacion h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #f3a70b;
+  }
+  
+  #ubicacion p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #f3a70b;
+  }
+
+  .expo_actual-info{
+    height: 51%;
+  }
+
+  .expo_actual-info h1{
+    color: #fde792;
+  }
+
+  .expo_actual-info h2{
+    color: #fde792;
+  }
+
+  .expo_actual-info p {
+    color: #fde792;
+  }
+
+  .img-puntitos{
+    width: 100%;
+  }
+
+
+  .img-fachada{
+    width: 80%;
+    margin: auto;
+  }
+
+  .img-personas{
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/*Display para Desktop de 1280px*/
+@media screen and (min-width:1280px) {
+  .hero {
+    width: calc (100%-100px);
+    height: auto;
+    padding: 25px 20px;
+  }
+
+  .box {
+    width: 23%;
+    height: 500px;
+    float: left;
+  }
+  
+  #frase {
+    width: 100%;
+    height: 281px;
+    margin-bottom: 30px;
+    float: left;
+  }
+  
+  #frase h1{
+    height: 100%;
+    text-align: center;
+    font-size: 23px;
+    margin: 0 200px;
+  }
+  
+  #datos, #expo_actual, #nosotros {
+    margin-right: 30px;
+  }
+
+  #datos{
+    width: 23%;
+    margin-top: 30px;
+  }
+  
+  .box_datos{
+    width: 100%;
+    height: 25%;
+    background-color: salmon;
+  }
+  
+  #horario {
+    background-color: #81cbbc;
+  }
+  #contacto{
+    background-color: #449588;
+  }
+  
+  #costos h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #f3a70b;
+  }
+  
+  #costos p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #f3a70b;
+  }
+  
+  #horario h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #81cbbc;
+  }
+  
+  #horario p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #81cbbc;
+  }
+  
+  #contacto h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #449588;
+  }
+  
+  #contacto p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #449588;
+  }
+  
+  #ubicacion h2{
+    padding-top: 25px;
+    text-align: center;
+    height: 40%;
+    background-color: #f3a70b;
+  }
+  
+  #ubicacion p{
+    padding-top: 10px;
+    text-align: center;
+    height: 60%;
+    background-color: #f3a70b;
+  }
+
+  .expo_actual-info{
+    height: 51%;
+  }
+
+  .expo_actual-info h1{
+    color: #fde792;
+  }
+
+  .expo_actual-info h2{
+    color: #fde792;
+  }
+
+  .expo_actual-info p {
+    color: #fde792;
+  }
+
+  .img-puntitos{
+    width: 100%;
+  }
+
+
+  .img-fachada{
+    width: 80%;
+    margin: auto;
+  }
+
+  .img-personas{
+    width: 80%;
+    margin: auto;
+  }
+}
+
