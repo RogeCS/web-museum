@@ -20,7 +20,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
   }
 
   /** Datos */
@@ -65,6 +68,12 @@
   .expo_actual-info{
     padding: 30px 10px;
     text-align: center;
+    color: #fde792;
+  }
+
+  .expo_actual-info h1{
+    font-size: 25px;
+    margin-bottom: 25px;
   }
 
   .expo_actual-img {
@@ -108,7 +117,7 @@
   #hero-caja5{
     width: 100%;
     padding: 20px;
-    background-color:#81cbbc;
+    background-color:#449588;
   }
 
   .tall-titulo{
@@ -152,7 +161,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
   }
 
   /** Datos */
@@ -183,8 +195,8 @@
   /** Expo Actual */
   #hero-caja3{
     width: 60%;
-    top: 80px;
-    height: 500px;
+    top: 280px;
+    height: 200px;
     float:left;
     height: 1;
     position: absolute;
@@ -202,7 +214,7 @@
     width: 50%;
     float: left;
     padding: 0px 20px;
-    text-align: center;
+    text-align: left;
     display: block;
   }
 
@@ -264,7 +276,7 @@
     width: 100%;
     height: 500px;
     padding: 20px;
-    background-color:#81cbbc;
+    background-color:#449588;
   }
 
   .tall-titulo{
@@ -296,7 +308,7 @@
   }
 }
 
-/*Display para Desktop de 768px*/
+/*Display para Desktop de 1280px*/
 @media screen and (min-width:1280px) {
 
   /** Frase */
@@ -315,42 +327,54 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 40px;
+    line-height: 1.3;
+    font-weight: 600;
+    text-transform: uppercase;
   }
 
   /** Datos */
   #hero-caja2{
     float:left;
-    width: 25%;
+    width: 50%;
   }
 
   .datos-info {
-    padding-top: 20px;
+    padding-top: 40px;
     width: 100%;
-    height: 230px;
+    height: 200px;
     text-align: center;
   }
 
   .amarillo{
     background-color: #f3a70b;
+    width: 50%;
+    display: block;
+    float: left;
   }
 
   .aqua{
     background-color: #81cbbc;
+    width: 50%;
+    display: block;
+    float: left;
   }
 
   .aqua-oscuro{
     background-color: #449588;
+    width: 50%;
+    display: block;
+    float: left;
   }
 
   /** Expo Actual */
   #hero-caja3{
-    width: 25%;
-    top: 0;
-    height: 920px;
+    width: 50%;
+    top: 800px;
+    height: 400px;
     float:left;
     height: 1;
-    position: relative;
+    position: absolute;
     background-color: transparent;
   }
   .expo_actual-contenedor{
@@ -363,15 +387,16 @@
   }
 
   .expo_actual-info{
-    width: 100%;
+    width: 50%;
     float: left;
+    margin-top: 30px;
     padding: 0px 20px;
-    text-align: center;
+    text-align: left;
     display: block;
   }
 
   .expo_actual-img {
-    width: 100%;
+    width: 50%;
     margin: 10px auto;
     float: left;
     display: block;
@@ -386,7 +411,7 @@
   #hero-caja4{
     float:left;
     width: 25%;
-    height: 920px;
+    height: 800px;
     padding: 20px;
     background-color: #81cbbc;
   }
@@ -427,9 +452,9 @@
   #hero-caja5{
     float:left;
     width: 25%;
-    height: 920px;
+    height: 800px;
     padding: 20px;
-    background-color:#81cbbc;
+    background-color:#449588;
   }
 
   .tall-titulo{
