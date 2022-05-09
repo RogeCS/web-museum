@@ -81,7 +81,6 @@
   }
 
   .expo_actual-img img {
-    border-radius: 10px;
     width: 100%;
     object-fit: cover;
   }
@@ -107,7 +106,6 @@
   }
 
   .nos-img img {
-    border-radius: 10px;
     width: 100%;
     object-fit: cover;
     object-position: left;
@@ -134,7 +132,6 @@
   }
 
   .tall-img img {
-    border-radius: 10px;
     width: 100%;
     object-fit: cover;
     object-position: left;
@@ -226,7 +223,6 @@
   }
 
   .expo_actual-img img {
-    border-radius: 10px;
     object-fit: cover;
   }
 
@@ -267,7 +263,6 @@
 
   .nos-img img {
     width: 100%;
-    border-radius: 10px;
     object-fit: cover;
   }
 
@@ -304,7 +299,6 @@
 
   .tall-img img {
     width: 100%;
-    border-radius: 10px;
     object-fit: cover;
   }
 }
@@ -370,7 +364,7 @@
 
   /** Expo Actual */
   #hero-caja3{
-    width: 50%;
+    width: 640px;
     top: 800px;
     height: 500px;
     float:left;
@@ -388,7 +382,7 @@
   }
 
   .expo_actual-info{
-    width: 50%;
+    width: 100%;
     float: left;
     margin-top: 30px;
     padding: 0px 20px;
@@ -397,14 +391,13 @@
   }
 
   .expo_actual-img {
-    width: 50%;
-    margin: 10px auto;
-    float: left;
+    width: 400px;
+    margin: 10px 20px;
     display: block;
   }
 
   .expo_actual-img img {
-    border-radius: 10px;
+    margin-top: 30px;
     object-fit: cover;
   }
 
@@ -412,7 +405,7 @@
   #hero-caja4{
     float:left;
     width: 25%;
-    height: 800px;
+    height: 900px;
     padding: 20px;
     background-color: #81cbbc;
   }
@@ -445,7 +438,6 @@
 
   .nos-img img {
     width: 100%;
-    border-radius: 10px;
     object-fit: cover;
   }
 
@@ -453,7 +445,7 @@
   #hero-caja5{
     float:left;
     width: 25%;
-    height: 800px;
+    height: 900px;
     padding: 20px;
     background-color:#449588;
   }
@@ -482,7 +474,6 @@
 
   .tall-img img {
     width: 100%;
-    border-radius: 10px;
     object-fit: cover;
   }
 }

@@ -86,6 +86,7 @@
     border-bottom: none;
     padding: 10px 30px 50px 30px;
     color: #fde792;
+    border-bottom: 2px solid #fde792;
     display: block;
     float: left;
     width: 100%;

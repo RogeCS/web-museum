@@ -76,3 +76,53 @@
     display:none;
   }
 }
+
+@media screen and (min-width:1280px) {
+  .acervo{
+    padding: 200px 30px;
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  .acervo-articulo{
+    margin-bottom: 30px;
+    width: 50%;
+    display: block;
+    float: left;
+    padding-right: 20px;
+  }
+
+  .acervo-articulo h1{
+    margin-bottom: 30px;
+  }
+
+  .acervo-galeria{
+    margin-top: 40px;
+    display: block;
+    float: left;
+    width: 50%;
+  }
+
+  .ag-img{
+    width: 46%;
+    overflow: hidden;
+    margin: 10px 10px;
+    display: block;
+    float: left;
+  }
+
+  .ag-img img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+  }
+
+  .tablet{
+    display: block;
+  }
+
+  .desktop{
+    display:none;
+  }
+}

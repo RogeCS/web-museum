@@ -55,3 +55,9 @@ p{
 .text_right{
   text-align: right;
 }
+
+.max-width{
+  display: grid;
+  max-width: 1280px;
+  margin: 0 auto;
+}

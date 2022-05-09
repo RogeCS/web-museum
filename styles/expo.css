@@ -1,4 +1,3 @@
-/*Display para Desktop de 320px*/
 @media screen and (min-width:320px) {
   .expo{
     background-color: #449588;
@@ -174,3 +173,112 @@
     background-color: #f3a70b;
   }
 }
+
+@media screen and (min-width:1280px){
+  .expo{
+    background-color: #449588;
+    padding: 100px 30px;
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  .expo-info h1{
+    margin-bottom: 28px;
+  }
+
+  .expo-info p{
+    width: 50%;
+    margin-bottom: 40px;
+    padding-right: 40px;
+    display: block;
+    float: left;
+  }
+
+  .expo-images{
+    display: block;
+    float: left;
+    width: 50%;
+  }
+
+  .expo-img1{
+    width: 300px;
+    display: block;
+    float: left;
+    overflow: hidden;
+  }
+
+  .expo-img1 img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .expo-img2{
+    width: 300px;
+    margin-left: 10px;
+    display: block;
+    float: left;
+    overflow: hidden;
+  }
+
+  .expo-img2 img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  .expo-img3{
+    display: none;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .expo-img3 img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  .talleres > h1{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: #fde792;
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  .card{
+    padding: 40px 30px;
+    max-width: 500px;
+    margin: 10px 10px;
+    height: 480px;
+    width: 31%;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .card h1{
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    color: #fde792;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .card p{
+    text-align: center;
+  }
+
+  .card-blue{
+    background-color: #81cbbc;
+  }
+
+  .card-yellow{
+    background-color: #f3a70b;
+  }
+}
+
+
