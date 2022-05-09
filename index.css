@@ -3,6 +3,7 @@
 @import "./styles/expo.css";
 @import "./styles/acervo.css";
 @import "./styles/galeria.css";
+@import "./styles/contacto.css";
 
 * {
   margin: 0;
