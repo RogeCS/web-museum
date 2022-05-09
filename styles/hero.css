@@ -161,7 +161,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 26px;
+    font-size: 23px;
     line-height: 36px;
     font-weight: 600;
     text-transform: uppercase;
@@ -195,15 +195,16 @@
   /** Expo Actual */
   #hero-caja3{
     width: 60%;
-    top: 280px;
+    top: 200px;
     height: 200px;
     float:left;
+    display: block;
     height: 1;
     position: absolute;
     background-color: transparent;
   }
   .expo_actual-contenedor{
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -211,17 +212,17 @@
   }
 
   .expo_actual-info{
-    width: 50%;
+    width: 100%;
     float: left;
     padding: 0px 20px;
-    text-align: left;
+    text-align: center;
     display: block;
   }
 
   .expo_actual-img {
     width: 46%;
     margin: 10px auto;
-    display: inline-block;
+    display: none;
   }
 
   .expo_actual-img img {
@@ -371,7 +372,7 @@
   #hero-caja3{
     width: 50%;
     top: 800px;
-    height: 400px;
+    height: 500px;
     float:left;
     height: 1;
     position: absolute;

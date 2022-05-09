@@ -15,3 +15,25 @@
     object-fit: cover;
   }
 }
+
+@media screen and (min-width:768px) {
+  .galeria{
+    padding: 80px 30px;
+    background-color: #81cbbc;
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  .ga-img{
+    width: 44%;
+    overflow: hidden;
+    margin: 20px 20px;
+    display: inline-block;
+  }
+
+  .ga-img img{
+    width: 100%;
+    object-fit: cover;
+  }
+}

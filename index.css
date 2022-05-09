@@ -4,6 +4,7 @@
 @import "./styles/acervo.css";
 @import "./styles/galeria.css";
 @import "./styles/contacto.css";
+@import "./styles/footer.css";
 
 * {
   margin: 0;

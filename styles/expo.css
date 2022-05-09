@@ -79,3 +79,98 @@
     background-color: #f3a70b;
   }
 }
+
+@media screen and (min-width:768px){
+  .expo{
+    background-color: #449588;
+    padding: 100px 30px;
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  .expo-info h1{
+    margin-bottom: 28px;
+  }
+
+  .expo-info p{
+    width: calc(100% - 310px);
+    margin-bottom: 40px;
+    padding-right: 40px;
+    display: inline-block;
+  }
+
+  .expo-images{
+    width: 300px;
+    display: inline-block;
+  }
+
+  .expo-img1{
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .expo-img1 img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .expo-img2{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .expo-img2 img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  .expo-img3{
+    display: none;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .expo-img3 img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  .talleres > h1{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: #fde792;
+  }
+
+  .card{
+    padding: 40px 30px;
+    margin: 10px auto;
+    max-width: 500px;
+    overflow: hidden;
+  }
+
+  .card h1{
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    color: #fde792;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .card p{
+    text-align: center;
+  }
+
+  .card-blue{
+    background-color: #81cbbc;
+  }
+
+  .card-yellow{
+    background-color: #f3a70b;
+  }
+}
