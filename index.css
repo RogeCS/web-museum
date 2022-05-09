@@ -1,6 +1,8 @@
 @import "./styles/hero.css";
 @import "./styles/history.css";
-
+@import "./styles/expo.css";
+@import "./styles/acervo.css";
+@import "./styles/galeria.css";
 
 * {
   margin: 0;
@@ -30,6 +32,7 @@ a {
 h1{
   font-size: 30px;
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
 
 h2{

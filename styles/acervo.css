@@ -1,0 +1,32 @@
+@media screen and (min-width:320px) {
+  .acervo{
+    padding: 80px 30px;
+  }
+
+  .acervo-articulo{
+    margin-bottom: 30px;
+  }
+
+  .acervo-articulo h1{
+    margin-bottom: 30px;
+  }
+
+  .ag-img{
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0;
+  }
+
+  .ag-img img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .tablet{
+    display: none;
+  }
+
+  .desktop{
+    display:none;
+  }
+}
